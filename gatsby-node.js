@@ -15,10 +15,6 @@ exports.createPages = ({ actions, graphql }) => {
             fields {
               slug
             }
-            frontmatter {
-              tags
-              templateKey
-            }
           }
         }
       }
